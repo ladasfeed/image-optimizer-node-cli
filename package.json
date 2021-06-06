@@ -1,0 +1,21 @@
+{
+  "name": "image-optimizer-node-cli",
+  "version": "1.0.0",
+  "description": "Package is the extension for libraries: compress-images, webp-converter. It allows you to compress and convert images very simply using only command line.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "img-compress": "main.js"
+  },
+  "author": "NPM user <ladasfeed@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "compress-images": "^1.9.9",
+    "esm": "^3.2.25",
+    "gifsicle": "^5.2.0",
+    "pngquant-bin": "^6.0.0",
+    "webp-converter": "^2.3.3"
+  }
+}
